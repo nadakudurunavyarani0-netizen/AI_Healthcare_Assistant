@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Checker</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Drug Interaction Checker</h1>
+
+    <p class="subtitle">
+        Check possible interactions between two medicines
+    </p>
+
+    <form method="POST" action="/drug-interaction">
+
+        <label for="drug1">Medicine 1</label>
+        <input
+            type="text"
+            id="drug1"
+            name="drug1"
+            placeholder="Enter first medicine"
+            required
+        >
+
+        <label for="drug2">Medicine 2</label>
+        <input
+            type="text"
+            id="drug2"
+            name="drug2"
+            placeholder="Enter second medicine"
+            required
+        >
+
+        <button type="submit">
+            Check Interaction
+        </button>
+
+    </form>
+
+
+    {% if result %}
+
+    <div class="result">
+
+        <h2>Interaction Result</h2>
+
+        <p>
+            <strong>Medicine 1:</strong>
+            {{ result.drug1 }}
+        </p>
+
+        <p>
+            <strong>Medicine 2:</strong>
+            {{ result.drug2 }}
+        </p>
+
+        <p>
+            <strong>Interaction:</strong>
+            {{ result.interaction }}
+        </p>
+
+        <p>
+            <strong>Risk Level:</strong>
+            {{ result.risk }}
+        </p>
+
+        {% if result.found %}
+
+        <div class="warning">
+            ⚠️ Possible drug interaction detected.
+            Please consult a qualified healthcare professional.
+        </div>
+
+        {% else %}
+
+        <div class="safe">
+            ✓ No interaction was found in the reference dataset.
+        </div>
+
+        {% endif %}
+
+    </div>
+
+    {% endif %}
+
+
+    <a href="/" class="back-button">
+        ← Back to Healthcare Assistant
+    </a>
+
+</div>
+
+</body>
+</html>
