@@ -1,0 +1,7 @@
+drug1,drug2,interaction,risk
+Metformin,Alcohol,May increase risk of side effects,High
+Metformin,Ibuprofen,May require monitoring,Moderate
+Aspirin,Ibuprofen,May increase bleeding risk,High
+Paracetamol,Ibuprofen,Usually no major interaction at standard doses,Low
+Amoxicillin,Paracetamol,No major interaction commonly expected,Low
+Amoxicillin,Warfarin,May increase bleeding risk,Moderate

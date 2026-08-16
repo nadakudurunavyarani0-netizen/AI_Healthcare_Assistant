@@ -1,0 +1,61 @@
+fever,cough,fatigue,headache,body_pain,sore_throat,runny_nose,nausea,vomiting,diarrhea,disease
+1,1,1,1,1,1,1,0,0,0,Flu
+1,1,1,1,1,1,0,0,0,0,Flu
+1,1,1,1,0,1,1,0,0,0,Flu
+1,1,1,0,1,1,1,0,0,0,Flu
+1,0,1,1,1,1,1,0,0,0,Flu
+1,1,1,1,1,0,1,0,0,0,Flu
+1,1,1,0,1,0,1,0,0,0,Flu
+1,0,1,1,1,1,0,0,0,0,Flu
+1,1,1,1,0,1,0,0,0,0,Flu
+1,0,1,1,1,0,1,0,0,0,Flu
+0,1,1,1,0,1,1,0,0,0,Common Cold
+0,1,0,1,0,1,1,0,0,0,Common Cold
+0,1,1,0,0,1,1,0,0,0,Common Cold
+0,1,1,1,0,0,1,0,0,0,Common Cold
+0,1,0,1,0,1,0,0,0,0,Common Cold
+0,1,1,0,0,1,0,0,0,0,Common Cold
+0,1,0,0,0,1,1,0,0,0,Common Cold
+0,1,1,1,0,0,1,0,0,0,Common Cold
+0,1,0,1,0,1,1,0,0,0,Common Cold
+0,1,1,0,0,1,1,0,0,0,Common Cold
+0,0,1,0,0,0,0,1,1,1,Food Poisoning
+0,0,1,0,0,0,0,1,1,1,Food Poisoning
+0,0,0,0,0,0,0,1,1,1,Food Poisoning
+0,0,1,0,0,0,0,1,0,1,Food Poisoning
+0,0,0,0,0,0,0,1,1,0,Food Poisoning
+0,0,1,0,1,0,0,1,1,1,Food Poisoning
+0,0,0,0,0,0,0,1,0,1,Food Poisoning
+0,0,1,0,0,0,0,1,1,1,Food Poisoning
+0,0,1,0,1,0,0,1,1,0,Food Poisoning
+0,0,0,0,0,0,0,1,1,1,Food Poisoning
+1,0,1,1,1,0,0,1,0,0,Dengue
+1,0,1,1,1,0,0,0,0,0,Dengue
+1,0,1,1,1,0,0,1,1,0,Dengue
+1,0,1,1,1,0,0,0,1,0,Dengue
+1,0,1,1,1,0,0,1,0,0,Dengue
+1,0,1,1,0,0,0,1,0,0,Dengue
+1,0,1,1,1,0,0,0,0,1,Dengue
+1,0,1,0,1,0,0,1,0,0,Dengue
+1,0,1,1,1,0,0,1,1,0,Dengue
+1,0,1,1,0,0,0,0,0,0,Dengue
+1,1,1,0,1,1,0,0,0,0,Bronchitis
+0,1,1,0,0,1,0,0,0,0,Bronchitis
+1,1,1,0,1,0,0,0,0,0,Bronchitis
+0,1,1,0,1,1,0,0,0,0,Bronchitis
+1,1,0,0,1,1,0,0,0,0,Bronchitis
+0,1,1,0,1,0,0,0,0,0,Bronchitis
+1,1,1,0,0,1,0,0,0,0,Bronchitis
+0,1,1,0,0,1,0,0,0,0,Bronchitis
+1,1,1,1,1,1,0,0,0,0,Bronchitis
+0,1,0,0,0,1,0,0,0,0,Bronchitis
+1,0,1,0,0,0,0,0,0,0,Diabetes
+0,0,1,0,0,0,0,0,0,0,Diabetes
+1,0,1,0,0,0,0,1,0,0,Diabetes
+1,0,1,0,0,0,0,0,0,0,Diabetes
+0,0,1,0,0,0,0,1,0,0,Diabetes
+1,0,0,0,0,0,0,0,0,0,Diabetes
+1,0,1,0,0,0,0,1,0,0,Diabetes
+0,0,1,0,0,0,0,0,0,0,Diabetes
+1,0,1,0,0,0,0,0,0,0,Diabetes
+1,0,1,0,0,0,0,1,0,0,Diabetes
