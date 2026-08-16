@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI-Powered Smart Healthcare Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ============================= -->
+        <!-- HEADER -->
+        <!-- ============================= -->
+
+        <div class="header">
+
+            <h1>
+                AI-Powered Smart Healthcare Assistant
+            </h1>
+
+            <p class="subtitle">
+                Disease Prediction, Drug Recommendation &
+                Side-Effect Monitoring
+            </p>
+
+        </div>
+
+
+        <!-- ============================= -->
+        <!-- DISEASE PREDICTION CARD -->
+        <!-- ============================= -->
+
+        <div class="card">
+
+            <h2>
+                Select Your Symptoms
+            </h2>
+
+
+            <form action="/predict"
+                  method="POST">
+
+
+                <!-- Symptoms -->
+
+                <div class="symptoms-list">
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="fever">
+
+                        <span>Fever</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="cough">
+
+                        <span>Cough</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="fatigue">
+
+                        <span>Fatigue</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="headache">
+
+                        <span>Headache</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="body_pain">
+
+                        <span>Body Pain</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="sore_throat">
+
+                        <span>Sore Throat</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="runny_nose">
+
+                        <span>Runny Nose</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="nausea">
+
+                        <span>Nausea</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="vomiting">
+
+                        <span>Vomiting</span>
+
+                    </label>
+
+
+                    <label class="symptom-item">
+
+                        <input
+                            type="checkbox"
+                            name="symptoms"
+                            value="diarrhea">
+
+                        <span>Diarrhea</span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- ============================= -->
+                <!-- PREDICT BUTTON -->
+                <!-- ============================= -->
+
+                <div class="button-center">
+
+                    <button
+                        type="submit"
+                        class="blue-button">
+
+                        Predict Disease
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+
+        <!-- ============================= -->
+        <!-- DRUG INTERACTION CARD -->
+        <!-- ============================= -->
+
+        <div class="card interaction-card">
+
+            <h2>
+                💊 Drug Interaction Checker
+            </h2>
+
+            <p>
+                Check possible interactions between
+                two medicines.
+            </p>
+
+
+            <div class="button-center">
+
+                <a
+                    href="/drug-interaction"
+                    class="blue-button">
+
+                    Check Drug Interaction
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ============================= -->
+        <!-- SAFETY WARNING -->
+        <!-- ============================= -->
+
+        <div class="warning-box">
+
+            <strong>Important:</strong>
+
+            This application is an educational prototype.
+            It does not provide a medical diagnosis or prescription.
+
+            Do not start, stop, or change medication based only
+            on this result.
+
+            Please consult a qualified healthcare professional
+            for medical decisions.
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
