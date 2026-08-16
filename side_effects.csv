@@ -1,0 +1,11 @@
+medicine,side_effect,level,action
+Paracetamol,Nausea,Mild,Monitor and consult a healthcare professional if persistent
+Paracetamol,Stomach discomfort,Mild,Monitor and seek professional advice if persistent
+Paracetamol,Skin rash,Important,Stop self-medication and seek medical advice
+Metformin,Nausea,Common,Discuss with a healthcare professional if persistent
+Metformin,Stomach discomfort,Common,Discuss with a healthcare professional if persistent
+Metformin,Diarrhea,Common,Discuss with a healthcare professional if persistent
+Salbutamol,Headache,Common,Discuss with a healthcare professional if persistent
+Salbutamol,Tremor,Common,Discuss with a healthcare professional if persistent
+ORS,Nausea,Mild,Monitor symptoms and seek professional advice if persistent
+ORS,Stomach discomfort,Mild,Monitor symptoms and seek professional advice if persistent

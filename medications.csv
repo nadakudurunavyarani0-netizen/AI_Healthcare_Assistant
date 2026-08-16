@@ -1,0 +1,7 @@
+disease,medicine,common_side_effect,alternative
+Flu,Paracetamol,Nausea,Doctor Consultation
+Common Cold,Paracetamol,Drowsiness,Doctor Consultation
+Food Poisoning,ORS,Stomach discomfort,Doctor Consultation
+Dengue,Paracetamol,Nausea,Doctor Consultation
+Bronchitis,Salbutamol,Headache,Doctor Consultation
+Diabetes,Metformin,Nausea,Doctor Consultation
