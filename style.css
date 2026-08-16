@@ -1,0 +1,313 @@
+/* =========================================
+   GENERAL PAGE
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #f4f7fb;
+
+    color: #222;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.container {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.header {
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+}
+
+.header h1 {
+
+    margin-bottom: 10px;
+
+    color: #1d3557;
+
+    font-size: 32px;
+
+}
+
+.subtitle {
+
+    color: #666;
+
+    font-size: 17px;
+
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.card {
+
+    background: white;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* =========================================
+   HEADINGS
+========================================= */
+
+.card h2 {
+
+    margin-top: 0;
+
+    color: #222;
+
+    font-size: 25px;
+
+}
+
+
+/* =========================================
+   SYMPTOMS
+========================================= */
+
+.symptoms-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+    margin-top: 20px;
+
+}
+
+
+.symptom-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    font-size: 17px;
+
+    color: #333;
+
+    cursor: pointer;
+
+}
+
+
+.symptom-item input[type="checkbox"] {
+
+    width: 19px;
+
+    height: 19px;
+
+    cursor: pointer;
+
+}
+
+
+/* =========================================
+   BUTTON CENTER
+========================================= */
+
+.button-center {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 28px;
+
+}
+
+
+/* =========================================
+   BLUE BUTTON
+========================================= */
+
+.blue-button {
+
+    display: inline-block;
+
+    background: #1683e8;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 7px;
+
+    padding: 12px 28px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.blue-button:hover {
+
+    background: #096dcc;
+
+}
+
+
+/* =========================================
+   DRUG INTERACTION
+========================================= */
+
+.interaction-card {
+
+    margin-top: 20px;
+
+}
+
+
+.interaction-card h2 {
+
+    color: #222;
+
+}
+
+
+.interaction-card p {
+
+    color: #666;
+
+    font-size: 16px;
+
+}
+
+
+/* =========================================
+   WARNING BOX
+========================================= */
+
+.warning-box {
+
+    background: #fff8e1;
+
+    border-left: 5px solid #f0ad00;
+
+    padding: 18px;
+
+    margin-bottom: 30px;
+
+    border-radius: 6px;
+
+    color: #555;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .container {
+
+        width: 94%;
+
+        margin: 20px auto;
+
+    }
+
+
+    .header h1 {
+
+        font-size: 25px;
+
+    }
+
+
+    .subtitle {
+
+        font-size: 15px;
+
+    }
+
+
+    .card {
+
+        padding: 20px;
+
+    }
+
+
+    .card h2 {
+
+        font-size: 21px;
+
+    }
+
+}
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
